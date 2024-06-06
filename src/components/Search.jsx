@@ -1,7 +1,7 @@
 const Search = ({ state, setState }) => {
   return (
     <div className="w-1/2 flex flex-col gap-12 items-center">
-      <h1 className="text-3xl font-light">😎 Emoji Search 😎</h1>
+      <h1 className="text-xl font-light sm:text-3xl">😎 Emoji Search 😎</h1>
       <input
         type="text"
         value={state}
